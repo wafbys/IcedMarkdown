@@ -1,0 +1,42 @@
+{
+  "name": "icedmarkdown",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "@tauri-apps/cli": "^2.11.4",
+    "@tsconfig/svelte": "^5.0.8",
+    "@types/node": "^24.13.2",
+    "autoprefixer": "^10.5.2",
+    "postcss": "^8.5.16",
+    "svelte": "^5.56.3",
+    "svelte-check": "^4.6.0",
+    "tailwindcss": "^3.4.19",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.0"
+  },
+  "dependencies": {
+    "@codemirror/autocomplete": "^6.20.3",
+    "@codemirror/commands": "^6.10.4",
+    "@codemirror/lang-markdown": "^6.5.0",
+    "@codemirror/language": "^6.12.4",
+    "@codemirror/state": "^6.7.0",
+    "@codemirror/view": "^6.43.4",
+    "@lezer/highlight": "^1.2.3",
+    "codemirror": "^6.0.2",
+    "mdast-util-from-markdown": "^2.0.3",
+    "mdast-util-to-hast": "^13.2.1",
+    "rehype-stringify": "^10.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
+    "unified": "^11.0.5"
+  }
+}
